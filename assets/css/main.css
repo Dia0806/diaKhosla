@@ -232,9 +232,9 @@ a:hover
 
 .image-container .background-img
 {
-    position: sticky;
+    position: relative;
     z-index: 1;
-    top: 0;
+    top: -15px;
     left: 0;
 
     width: 100%;
@@ -246,7 +246,6 @@ a:hover
 
     background: url(../img/DiaProfile.jpeg);
     background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media (max-width:1200px)
