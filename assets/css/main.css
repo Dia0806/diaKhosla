@@ -232,9 +232,9 @@ a:hover
 
 .image-container .background-img
 {
-    position: relative;
+    position: static;
     z-index: 1;
-    top: -15px;
+    top: -1px;
     left: 0;
 
     width: 100%;
